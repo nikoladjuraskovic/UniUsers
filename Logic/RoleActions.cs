@@ -124,6 +124,12 @@ namespace WebAppUsers.Logic
             i kod u if-ovima se nece opet pokretati. Dakle, ovaj kod se pokrece uvek kada se aplikacija pokrene.
             Zasto? Jer je klasa RoleActions instancirana u Global.asax fajlu i tu je pozvan njem metod
             AddUserAndRole().
+
+            Dalje pogledati:
+            Account -> Students.aspx i Web.config
+            Admin -> InsertStudent.aspx i Web.config
+            Site Master
+            Siste Master.cs
              */
         }
     }
